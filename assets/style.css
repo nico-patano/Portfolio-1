@@ -43,6 +43,23 @@ ul {
   li a:hover {
     background-color: #111;
   }
+ 
+  @media (max-width:1000px) {
+    header{
+        padding: 20px 50px
+    }
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    header h2{
+        margin-bottom: 15px;
+    }
+    header nav li{
+        margin: 0 7px;
+    }
+}
 
 /* Banner Section */
 
@@ -67,6 +84,8 @@ ul {
     font-family: 'Courier New', Courier, monospace;
     font-style: bold;
 }
+
+
 
 /* About me Section */
 
@@ -103,7 +122,7 @@ ul {
       position: relative;
       text-align: center;
       font-size: x-large;
-      
+            
   }
   .main-container .img:hover{
     opacity: .35;
@@ -139,8 +158,6 @@ ul {
     padding: 10px;
     height: 400px;
     text-align: center;
-    
-    
   }
   
   .left {
@@ -164,3 +181,40 @@ ul {
     line-height: 150px;
     text-align: center;
   }
+
+  @media (max-width:1000px) {
+    header{
+        padding: 20px 50px
+    }
+}
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+    header h2{
+        margin-bottom: 15px;
+    }
+    header nav li{
+        margin: 0 7px;
+    }
+}
+
+@media (max-width:1000) {
+  .main-container  {
+      position: column;
+  }
+     
+  .main-container{
+      flex-basis: 100%;
+  }
+}
+
+@media (max-width:1000) {
+  .container-two  {
+      position: column;
+  }
+     
+  .container-two{
+      flex-basis: 100%;
+  }
+}
