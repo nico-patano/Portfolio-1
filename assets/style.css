@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+/* Nav bar */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/* Banner Section */
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .95;
+}
+
+.banner-area {
+    position: relative;
+    text-align: center;
+    color: honeydew;
+}
+.name {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 550%;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+}
+
+/* About me Section */
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    padding: 70px 0
+  }
+  
+  .left {
+    width: 25%;
+    background-color: grey;
+  }
+  
+  .right {
+    width: 75%;
+    background-color: khaki;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Work Section */
+
+  .main-container {
+      position: relative;
+      text-align: center;
+      
+  }
+  .main-container .img:hover{
+    opacity: .35;
+  }
+  .main-container .img{
+    height: 75%;
+    width: 75%;
+  }
+  .container-two {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+  }
+
+  .container-two .img:hover{
+    opacity: .35;
+  }
+  .contair-two .img {
+    height: 200px;
+    width: 200px;
+  
+  }
+  .container-two > div {
+    padding: 25px;
+  }
+
+   /* Contact section */
+
+   .contact {
+    float: left;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    
+    
+  }
+  
+  .left {
+    width: 25%;
+    background-color: grey;
+  }
+  
+  .right {
+    width: 75%;
+    background-color: khaki;
+  }
+  .contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    background-color: black;
+    color: blanchedalmond;
+    line-height: 150px;
+    text-align: center;
+  }
