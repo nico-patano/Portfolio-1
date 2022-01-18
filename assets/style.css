@@ -25,6 +25,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    font-size: x-large;
   }
   
   li {
@@ -72,7 +73,7 @@ ul {
 .column {
     float: left;
     padding: 10px;
-    height: 400px;
+    height: 350px;
     text-align: center;
     position: relative;
     padding: 70px 0
@@ -80,12 +81,13 @@ ul {
   
   .left {
     width: 25%;
-    background-color: grey;
+    border-right-style:solid;
+    font-size: larger;
   }
   
   .right {
     width: 75%;
-    background-color: khaki;
+    font-size: larger;
   }
   
   
@@ -100,6 +102,7 @@ ul {
   .main-container {
       position: relative;
       text-align: center;
+      font-size: x-large;
       
   }
   .main-container .img:hover{
@@ -142,12 +145,12 @@ ul {
   
   .left {
     width: 25%;
-    background-color: grey;
+    
   }
   
   .right {
     width: 75%;
-    background-color: khaki;
+    
   }
   .contact:after {
     content: "";
