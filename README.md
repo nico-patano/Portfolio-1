@@ -2,7 +2,7 @@
 
 Refactored existing code for Horiseon webpage so that it follows coding best practices
 
-GitHub deployed URL 
+GitHub deployed URL https://nico-patano.github.io/portfolio-1/
 
 screen shot of Webb App
 
