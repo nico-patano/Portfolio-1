@@ -1,6 +1,6 @@
 # portfolio-1
 
-Refactored existing code for Horiseon webpage so that it follows coding best practices
+First draft of Portfolio Website
 
 GitHub deployed URL https://nico-patano.github.io/portfolio-1/
 
